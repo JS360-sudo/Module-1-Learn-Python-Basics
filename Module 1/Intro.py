@@ -11,7 +11,7 @@ print("- Data Types")
 print("- Basic Input/Output")
 print("- Writing simple programs\n")
 
-print("This module is self-paced. Pick where you want to begin.\n")
+print("This module is self-paced course. Pick where you want to begin.\n")
 
 print("Choose a lesson:")
 print("1 - Variables")

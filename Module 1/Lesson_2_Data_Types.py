@@ -23,16 +23,18 @@ input("Press Enter to see an example\n")
 print("""Example:
 x = 10
 print(type(x))  # This shows the data type
-Now YOU try printing type() on other values.\n""")
+Now try printing your own type() on other values.\n""")
+print("press Enter to continue to the next excersize\n")
 
 print("EXERCISE 2: Convert between data types.")
 input("Press Enter to see an example\n")
 
 print("""Example:
 num = "5"
-num = int(num)   # Convert string to integer
+num = int(num)   # Here we convert str to int.
 print("Converted:", num)
-Now YOU try converting between str, int, and float.\n""")
+Now you try converting between str, int, and float.\n""")
+print("Press Enter to continue to the next excersize\n")
 
 print("EXERCISE 3: Write a code asking the user for their age and return True/False if they are 18+.")
 input("Press Enter to continue...\n")

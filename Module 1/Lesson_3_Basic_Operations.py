@@ -11,7 +11,7 @@ print("""In this lesson, you will learn:
 - Keeping code clean and readable\n""")
 
 # Explanation
-print("Comments are lines of text that Python ignores. They help explain your code.")
+print("Comments are lines of text that Python ignores. They help explain your code and keep it clean for others to read.")
 print("Example: # This is a comment\n")
 
 # ---------------------------
@@ -19,14 +19,17 @@ print("Example: # This is a comment\n")
 # ---------------------------
 
 print("EXERCISE 1: Write a program that asks for your name and prints a greeting.")
-input("Press Enter to see an example")
+input("Press Enter to see an example\n")
 
-print(""" # Using + operator
+print(""" Example:
+name = input("Enter your name: ")
 greeting = "Hello" + " " + ""nice day today!"
 
 # Using f-strings (preferred)
 name = "CyberVet"
 message = f"Hello {name}, have a nice day today!\n""")
+print("Now YOU write your own greeting program using input().\n")
+print("Press Enter to continue to the next exercise.\n")
 
 print("EXERCISE 2: Create a simple calculator.")
 input("Press Enter to see an example\n")
@@ -40,6 +43,7 @@ product = a * b      # Multiplication: (5 * 3) = 15
 quotient = a / b     # Division: (5 / 3) = 1.666...
 remainder = a % b    # Modulus: (5 % 3) = 2
 Now YOU write your own calculator using input().\n""")
+print("Press Enter to continue to the next excersice.\n")
 
 print("EXERCISE 3: On a new file, write a line a code asking the user for two numbers and show ALL operations (add, subtract, multiply, divide).")
 input("Press Enter to continue...\n")
